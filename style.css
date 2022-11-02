@@ -1,5 +1,5 @@
 body {
-    background: #344557 url(https://unsplash.imgix.net/photo-1423683249427-8ca22bd873e0?fit=crop&fm=jpg&h=700&q=75&w=1050) 0 0 no-repeat;
+    background: #344557 0 0 no-repeat;
     background-size: cover;
     background: rgba(#344557, .85);
     }
@@ -7,12 +7,21 @@ body {
 .welcome {
     display: flex;
     background-color: aquamarine;
+    width: 250px;
+    justify-content: center;
+    margin: auto;
+    margin-top: 100px;
+    border: 5px solid #FFFF00;
 }
 
 .puppy {
     display: flex;
-    height: 700px;
-    width: 1000px;
+    height: 600px;
+    width: 800px;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    box-shadow: 0 0 15px black;
 }
 
 .buyPuppy {
@@ -20,9 +29,44 @@ body {
     border-radius: 10%;
     background-color: black;
     color: white;
+    width: 250px;
+    justify-content: center;
+    margin: auto;
+    border: 5px solid yellow;
+    box-shadow: 0 0 15px black;
+
 }
 
 .description {
     display: flex;
+    background-color: black;
+    color: white;
+    width: 300px;
+    justify-content: center;
+    margin: auto;
+    border: 5px solid aquamarine;
+    box-shadow: 0 0 15px black;
+    padding: 10px;
+}
 
+.reasons {
+    background-color: black;
+    color: white;
+    width:475px;
+    border: 5px solid #FFFF00;
+    padding: 10px 0;
+    margin: auto;
+    box-shadow: 0 0 15px black;
+}
+
+.reasons:hover {
+    color: red;
+}
+
+.description:hover {
+    color: red;
+}
+
+.buyPuppy:hover {
+    color: red;
 }
