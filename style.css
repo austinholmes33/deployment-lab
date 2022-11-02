@@ -1,16 +1,28 @@
+body {
+    background: #344557 url(https://unsplash.imgix.net/photo-1423683249427-8ca22bd873e0?fit=crop&fm=jpg&h=700&q=75&w=1050) 0 0 no-repeat;
+    background-size: cover;
+    background: rgba(#344557, .85);
+    }
+
 .welcome {
+    display: flex;
     background-color: aquamarine;
 }
 
 .puppy {
+    display: flex;
     height: 700px;
     width: 1000px;
 }
 
 .buyPuppy {
+    display: flex;
     border-radius: 10%;
+    background-color: black;
+    color: white;
 }
 
 .description {
+    display: flex;
 
 }
